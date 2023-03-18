@@ -12,6 +12,18 @@ app.get('/', (req, res) => {
     res.render('pages/home.ejs')
 })
 
+app.get('/projetos', (req, res) => {
+    res.render('pages/projetos.ejs')
+})
+
+app.get('/escritorio', (req, res) => {
+    res.render('pages/escritorio.ejs')
+})
+
+app.get('/contato', (req, res) => {
+    res.render('pages/contato.ejs')
+})
+
 app.listen('3000', () => {
     console.log('live @ 3000')
 })
