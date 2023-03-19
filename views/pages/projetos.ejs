@@ -4,12 +4,11 @@
     <h1>Projetos</h1>
     <% for( projeto of projetos ) { %>
         <ul>
-            <a href="/projetos/<%= projeto.id %>"><li><%= projeto.nome %></li></a>
-            <li><%= projeto.descricao %></li>
+            <li><a href="/projetos/<%= projeto.id %>"><%= projeto.nome %></a></li>
         </ul>
 
         <article class="projects_card">
-            
+
         </article>
     <% } %>
 </div>
