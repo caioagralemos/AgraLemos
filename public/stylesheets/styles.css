@@ -1,0 +1,28 @@
+/* /escritorio */
+.titulo-escritorio {
+    height: 20vh;
+}
+
+.img-escritorio {
+    width: 80vh;
+}
+
+/* /contato */
+.img-contato{
+    height: 100%;
+    width: 60%;
+}
+
+/* navbar */
+.nav-link {
+    font-family: 'Sono', sans-serif;;
+}
+
+.img-navbar{
+    width: 15vh;
+}
+
+/* projeto */
+.carousel {
+    margin-top: -3vh;
+}
