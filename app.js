@@ -4,6 +4,8 @@ const app = express()
 const path = require('path')
 const ejsMate = require('ejs-mate')
 
+const projetos = require('./models/projetos.js')
+
 app.engine('ejs', ejsMate)
 app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname, 'views'))
@@ -13,8 +15,17 @@ app.get('/', (req, res) => {
 })
 
 app.get('/projetos', (req, res) => {
-    res.render('pages/projetos.ejs')
+    console.log(projetos)
+    res.render('pages/projetos.ejs', {projetos})
 })
+
+app.get('/projetos/:id', (req, res) => {
+    const { id } = req.params
+    const projeto = projetos.find(p => p.id == id)
+    console.log(projeto)
+    res.render('pages/projetoshow.ejs', {projeto})
+})
+
 
 app.get('/escritorio', (req, res) => {
     res.render('pages/escritorio.ejs')
