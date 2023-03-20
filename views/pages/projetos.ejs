@@ -1,30 +1,91 @@
 <% layout('layouts/boilerplate') %>
 
 <div class="container">
-    <h1>Projetos</h1>
-    <div class="row">
-        <div class="linha">
-            <div class="col-md-3 col-12">
-                
-            </div>
-            <div class="col-md-3 col-12">
+    <div class="row mt-3">
 
-            </div>
-            <div class="col-md-3 col-12">
-
-            </div>
-            <div class="col-md-3 col-12">
-
-            </div>
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[0].id %>"><img src="<%= projetos[0].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
         </div>
+
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[1].id %>"><img src="<%= projetos[1].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[2].id %>"><img src="<%= projetos[2].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+            
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[3].id %>"><img src="<%= projetos[3].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+
     </div>
-    <% for( projeto of projetos ) { %>
-        <ul>
-            <li><a href="/projetos/<%= projeto.id %>"><%= projeto.nome %></a></li>
-        </ul>
 
-        <article class="projects_card">
 
-        </article>
-    <% } %>
-</div>
+    <div class="row mt-4">
+
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[4].id %>"><img src="<%= projetos[4].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[5].id %>"><img src="<%= projetos[5].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[6].id %>"><img src="<%= projetos[6].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[7].id %>"><img src="<%= projetos[7].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+
+    </div>
+
+
+    <div class="row mt-4">
+
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[8].id %>"><img src="<%= projetos[8].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[9].id %>"><img src="<%= projetos[9].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[10].id %>"><img src="<%= projetos[10].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[11].id %>"><img src="<%= projetos[11].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+
+    </div>
+
+    <div class="row mt-4 mb-3">
+
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[12].id %>"><img src="<%= projetos[12].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[13].id %>"><img src="<%= projetos[13].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[14].id %>"><img src="<%= projetos[14].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+
+        <div class="col-md-3 col-12">
+            <a href="/projetos/<%= projetos[15].id %>"><img src="<%= projetos[15].imagens[0] %>" class="projetos-img img-fluid" alt=""></a>
+        </div>
+        
+    </div>
+
+    <hr>
+    <footer class="p-5 d-flex justify-content-center">
+        <big><a href="https://instagram.com/agralemosarquitetos" class="text-dark p-2"><i class="uil uil-instagram"></i></big>
+        <big><a href="https://facebook.com/agralemos" class="text-dark p-2</a>"><i class="uil uil-facebook-f"></i></big>
+    </footer>
+</div></a>

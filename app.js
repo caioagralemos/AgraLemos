@@ -13,7 +13,7 @@ app.set('views', path.join(__dirname, 'views'))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', (req, res) => {
-    res.render('pages/home.ejs')
+    res.render('pages/home.ejs', {projetos})
 })
 
 app.get('/projetos', (req, res) => {
