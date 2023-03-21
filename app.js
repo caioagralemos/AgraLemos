@@ -17,14 +17,12 @@ app.get('/', (req, res) => {
 })
 
 app.get('/projetos', (req, res) => {
-    console.log(projetos)
     res.render('pages/projetos.ejs', {projetos})
 })
 
 app.get('/projetos/:id', (req, res) => {
     const { id } = req.params
     const projeto = projetos.find(p => p.id == id)
-    console.log(projeto)
     res.render('pages/projetoshow.ejs', {projeto})
 })
 
