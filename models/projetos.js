@@ -36,15 +36,21 @@ projetos[2] = new Projeto (
     2,
     'Ibis Styles Pajuçara',
     [
-        'https://www.ahstatic.com/photos/b0h9_ho_00_p_1024x768.jpg'
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/w_1000,ar_1:1,c_fill,g_auto/v1679435627/2-IbisStylesPaju%C3%A7ara/20190718_164512000_iOS_btvjqx.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679435627/2-IbisStylesPaju%C3%A7ara/20190718_164512000_iOS_btvjqx.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679435626/2-IbisStylesPaju%C3%A7ara/20190719_193504000_iOS_1_lypxwq.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679435626/2-IbisStylesPaju%C3%A7ara/20190705_111556000_iOS_vw0lzg.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679435626/2-IbisStylesPaju%C3%A7ara/20190719_180521000_iOS_ievtqz.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679435626/2-IbisStylesPaju%C3%A7ara/20221122_143945000_iOS_m7p9oj.jpg'
     ]
 )
 projetos[3] = new Projeto (
     3,
-    'Estúdio Bruna Bert',
+    'Casa EI',
     [
-        'https://www.ahstatic.com/photos/b0h9_ho_00_p_1024x768.jpg'
-
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/w_1000,ar_1:1,c_fill,g_auto/v1679435511/7-CasaEI%20ok/ren-cam1.RGB_color.0000_vosc4y.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679435511/7-CasaEI%20ok/ren-cam1.RGB_color.0000_vosc4y.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679435511/7-CasaEI%20ok/ren-cam2.RGB_color.0000_oo7t8h.jpg'
     ]
 )
 
@@ -52,10 +58,11 @@ projetos[4] = new Projeto(
     4,
     'Casa AA',
     [
-      'https://i.imgur.com/o6FsiI9.jpg',
-      'https://i.imgur.com/Z9SzcIg.jpg',
-      'https://i.imgur.com/BixY5dt.jpg',
-      'https://i.imgur.com/0NfwCou.jpg'
+      'https://res.cloudinary.com/dcluyyuwo/image/upload/w_1000,ar_1:1,c_fill,g_auto/v1679431446/4-CasaAA%20ok/0NfwCou_jdbpnw.jpg',
+      'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679431419/4-CasaAA%20ok/Z9SzcIg_u23kni.jpg',
+      'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679431287/4-CasaAA%20ok/o6FsiI9_dqkfvs.jpg',
+      'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679431446/4-CasaAA%20ok/0NfwCou_jdbpnw.jpg',
+      'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679431438/4-CasaAA%20ok/BixY5dt_tahjs5.jpg',
     ]
   );
 
@@ -84,18 +91,26 @@ projetos[6] = new Projeto (
 )
 projetos[7] = new Projeto (
     7,
-    'Casa EI',
+    'Casa JA',
     [
-        'https://www.ahstatic.com/photos/b0h9_ho_00_p_1024x768.jpg'
+      'https://res.cloudinary.com/dcluyyuwo/image/upload/w_1000,ar_1:1,c_fill,g_auto/v1679355473/16-CasaJA%20ok2/PHOTO-2023-02-25-15-08-17_3_zsodvq.jpg',
+      'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355473/16-CasaJA%20ok2/PHOTO-2023-02-25-15-08-17_3_zsodvq.jpg', 
+      'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355473/16-CasaJA%20ok2/PHOTO-2023-02-25-15-08-17_z5lyk3.jpg',
+      'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355474/16-CasaJA%20ok2/PHOTO-2023-02-27-09-12-37_vmhadd.jpg',
+      'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355474/16-CasaJA%20ok2/PHOTO-2023-02-25-15-08-17_2_svqkwn.jpg',
+      'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355476/16-CasaJA%20ok2/PHOTO-2023-02-27-09-12-38_xgtrab.jpg'
     ]
 )
 
 projetos[8] = new Projeto(
     8,
-    'Apartamento FG',
+    'Apartamento MS',
     [
-      'http://pousadahaya.com.br/assets/img/manguezal/001.JPG',
-      'http://pousadahaya.com.br/assets/img/haya/006.JPG'
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/ar_1:1,c_fill,g_auto,w_1000/v1679355358/17-ApartamentoMS%20ok/PHOTO-2022-10-03-20-52-23_kcpbop.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355358/17-ApartamentoMS%20ok/PHOTO-2022-10-03-20-52-22_e9v6sc.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355358/17-ApartamentoMS%20ok/PHOTO-2022-10-03-13-31-43_rvywq0.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355358/17-ApartamentoMS%20ok/PHOTO-2022-09-29-15-01-10_xxegol.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355360/17-ApartamentoMS%20ok/PHOTO-2022-10-03-12-21-30_fwtkdv.jpg'
     ]
   );
 
@@ -128,7 +143,11 @@ projetos[11] = new Projeto (
     11,
     'Apartamento FN',
     [
-        'https://i.imgur.com/Cb9pWPG.jpg'
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/w_1000,ar_1:1,c_fill,g_auto/v1679435514/11-ApartamentoFN%20ok/IMG_8523_e4uap6.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679435514/11-ApartamentoFN%20ok/IMG_8523_e4uap6.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679435514/11-ApartamentoFN%20ok/IMG_8519_euvkaj.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679435518/11-ApartamentoFN%20ok/IMG_8528_gtqhdc.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679435512/11-ApartamentoFN%20ok/IMG_8509_ry0bb2.jpg'
     ]
 )
 projetos[12] = new Projeto(
@@ -146,9 +165,13 @@ projetos[12] = new Projeto(
 
 projetos[13] = new Projeto (
     13,
-    'Condomínio Serena',
+    'Residência C',
     [
-        'https://cf.bstatic.com/xdata/images/hotel/max1280x900/423126000.jpg?k=5af0df439d5cb029000fe5a42981304d525e1bd5b13266532b2002a1b962b2e4&o=&hp=1'
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/w_1000,ar_1:1,c_fill,g_auto/v1679355359/18-CasaCecio%20ok/PHOTO-2022-09-21-21-35-12_2_d9xkpt.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355359/18-CasaCecio%20ok/PHOTO-2022-09-21-21-35-13_znxqrl.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355359/18-CasaCecio%20ok/PHOTO-2022-09-21-21-35-12_isp6xx.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355359/18-CasaCecio%20ok/PHOTO-2022-09-21-21-35-12_2_d9xkpt.jpg',
+        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355359/18-CasaCecio%20ok/PHOTO-2022-09-21-21-35-13_2_uhpxhe.jpg'
     ]
 )
 
@@ -175,48 +198,5 @@ projetos[15] = new Projeto (
         'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355358/15-Guajiru%20ok/PHOTO-2022-06-03-17-51-13_hsbb0t.jpg'
     ]
 )
-projetos[16] = new Projeto(
-    16,
-    'Casa JA',
-    [
-      'https://res.cloudinary.com/dcluyyuwo/image/upload/w_1000,ar_1:1,c_fill,g_auto/v1679355473/16-CasaJA%20ok2/PHOTO-2023-02-25-15-08-17_3_zsodvq.jpg',
-      'https://i.imgur.com/nzr2xO7.jpg', 
-      'https://i.imgur.com/VkReBIq.jpg',
-      'https://i.imgur.com/uItjRPP.jpg',
-      'https://i.imgur.com/D1xQsg2.jpg'
-    ]
-  );
-
-projetos[17] = new Projeto (
-    17,
-    'Apartamento MS',
-    [
-        'https://res.cloudinary.com/dcluyyuwo/image/upload/ar_1:1,c_fill,g_auto,w_1000/v1679355358/17-ApartamentoMS%20ok/PHOTO-2022-10-03-20-52-23_kcpbop.jpg',
-        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355358/17-ApartamentoMS%20ok/PHOTO-2022-10-03-20-52-22_e9v6sc.jpg',
-        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355358/17-ApartamentoMS%20ok/PHOTO-2022-10-03-13-31-43_rvywq0.jpg',
-        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355358/17-ApartamentoMS%20ok/PHOTO-2022-09-29-15-01-10_xxegol.jpg',
-        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355360/17-ApartamentoMS%20ok/PHOTO-2022-10-03-12-21-30_fwtkdv.jpg'
-    ]
-)
-
-projetos[18] = new Projeto (
-    18,
-    'Residência C',
-    [
-        'https://res.cloudinary.com/dcluyyuwo/image/upload/w_1000,ar_1:1,c_fill,g_auto/v1679355359/18-CasaCecio%20ok/PHOTO-2022-09-21-21-35-12_2_d9xkpt.jpg',
-        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355359/18-CasaCecio%20ok/PHOTO-2022-09-21-21-35-13_znxqrl.jpg',
-        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355359/18-CasaCecio%20ok/PHOTO-2022-09-21-21-35-12_isp6xx.jpg',
-        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355359/18-CasaCecio%20ok/PHOTO-2022-09-21-21-35-12_2_d9xkpt.jpg',
-        'https://res.cloudinary.com/dcluyyuwo/image/upload/v1679355359/18-CasaCecio%20ok/PHOTO-2022-09-21-21-35-13_2_uhpxhe.jpg'
-    ]
-)
-projetos[19] = new Projeto (
-    19,
-    'Tropi',
-    [
-        'https://res.cloudinary.com/dcluyyuwo/image/upload/w_1000,ar_1:1,c_fill,g_auto/v1679355366/19-CasaM%20ok/PHOTO-2023-01-16-18-59-21_fv1lwx.jpg',
-    ]
-)
 
 module.exports = projetos
-

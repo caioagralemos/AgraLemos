@@ -52,8 +52,8 @@
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-                <% for( let index = 1; index < projeto.imagens.length; index++ ) { %>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="<%= index %>"
+                <% for( let index = 2; index < projeto.imagens.length; index++ ) { %>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="<%= index-1 %>"
                         aria-label="Slide <%= index %>"></button>
                     <% } %>
         </div>
