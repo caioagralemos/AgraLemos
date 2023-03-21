@@ -1,3 +1,8 @@
+/* /home */
+.carousel-inner{
+    height: 100vh;
+}
+
 /* /escritorio */
 .titulo-escritorio {
     height: 20vh;
@@ -60,4 +65,56 @@
 
 .projetos-card:hover .projetos-title{
     bottom: 0;
+  }
+
+@media screen and (max-width:776px) {
+
+#carouselExampleCaptions {
+        height: 100vh;
+      }
+
+/* /escritorio */
+.titulo-escritorio {
+    height: 10vh;
+}
+
+.img-escritorio {
+    width: 40vh;
+}
+
+.text-escritorio{
+    font-size: small;
+}
+
+.projetos-img{
+    height: 100%;
+    width: 100%;
+}
+
+.projetos-card{
+    display: flex;
+    justify-content: center;
+    width: 43vh;
+    height: 43vh;
+    margin-bottom: 3vh;
+}
+
+.projetos-title{
+    background: none;
+    color: #ffffff82;
+}
+
+.projetos-card:hover .projetos-title{
+    bottom: 0;
+  }
+
+  .row{
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) and (orientation: landscape) { /* telas com largura mínima de 768px (modo paisagem) */
+    #carouselExampleCaptions {
+      height: 100vh;
+    }
   }
