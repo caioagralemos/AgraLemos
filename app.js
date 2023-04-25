@@ -35,6 +35,6 @@ app.get('/contato', (req, res) => {
     res.render('pages/contato.ejs')
 })
 
-app.listen('21092', () => {
-    console.log('live @ 21092')
+app.listen('21087', () => {
+    console.log('live @ 21087')
 })
