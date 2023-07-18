@@ -24,7 +24,17 @@
 
     /* navbar */
     .nav-link {
-        font-family: 'Sono', sans-serif;;
+        font-family: 'Sono', sans-serif;
+    }
+
+    .proj-name {
+        font-family: 'Sono', sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-link {
+        font-family: 'Sono', sans-serif;
     }
 
     .img-navbar{
@@ -107,6 +117,15 @@
         object-fit: cover;
       }
 
+    /* /navbar */
+    .proj-name {
+        font-family: 'Sono', sans-serif;
+        font-size: .9rem;
+        margin-left: -60px;
+        text-decoration: none;
+        color: black;
+    }
+    
     /* /escritorio */
     .titulo-escritorio {
         height: 10vh;
