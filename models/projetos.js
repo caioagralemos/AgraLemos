@@ -104,8 +104,8 @@ projetos[7] = new Projeto(
 );
 
 projetos[8] = new Projeto(
-  "montinni", // OK
-  "Montinni BSM",
+  "bsm", // OK
+  "BSM",
   [
     "https://res.cloudinary.com/dcluyyuwo/image/upload/w_1000,ar_1:1,c_fill,g_auto/v1689690580/MONTINNI-BSM/ren-cam1-SAUNA_seh7rn.jpg",
     "https://res.cloudinary.com/dcluyyuwo/image/upload/v1689690850/MONTINNI-BSM/ren-cam-PATIO_km8k1k.jpg",
