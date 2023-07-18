@@ -9,7 +9,12 @@
     }
 
     .img-escritorio {
-        width: 80vh;
+        width: 120vh;
+    }
+
+    .texto-escritorio{
+        font-size: 1.2rem;
+        text-align: center;
     }
 
     /* /contato */
@@ -135,9 +140,6 @@
         width: 40vh;
     }
 
-    .text-escritorio{
-        font-size: small;
-    }
 
     .projetos-img{
         height: 100%;
