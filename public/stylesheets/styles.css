@@ -18,6 +18,10 @@
         width: 60%;
     }
 
+    .contato-container {
+        margin-top: -2.5rem;
+    }
+
     /* navbar */
     .nav-link {
         font-family: 'Sono', sans-serif;;
@@ -132,7 +136,7 @@
 
     .projetos-title{
         background: none;
-        color: #ffffff82;
+        color: #ffffffca;
     }
 
     .projetos-card:hover .projetos-title{
