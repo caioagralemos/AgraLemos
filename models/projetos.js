@@ -13,10 +13,8 @@ projetos[0] = new Projeto(
   "Pousada Haya",
   [
     "https://res.cloudinary.com/dcluyyuwo/image/upload/v1679358120/0-PousadaHayaok/IMG_2363_lpophe.jpg",
-    "https://res.cloudinary.com/dcluyyuwo/image/upload/v1679358118/0-PousadaHayaok/IMG_2367_kfpjzu.jpg",
     "https://res.cloudinary.com/dcluyyuwo/image/upload/v1679358118/0-PousadaHayaok/PHOTO-2020-10-22-09-23-01_b2sls6.jpg",
-    "https://res.cloudinary.com/dcluyyuwo/image/upload/v1679358118/0-PousadaHayaok/867eea9a-c1f2-4eba-8e8c-dcf5e1966495_mdtlvq.jpg",
-    "https://res.cloudinary.com/dcluyyuwo/image/upload/v1679358124/0-PousadaHayaok/21bc4493-e9bc-4a8b-a031-c20bcf711fc6_cigfyp.jpg",
+    "https://res.cloudinary.com/dcluyyuwo/image/upload/v1679358118/0-PousadaHayaok/867eea9a-c1f2-4eba-8e8c-dcf5e1966495_mdtlvq.jpg"  
   ]
 );
 
